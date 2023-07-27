@@ -94,3 +94,12 @@ img {
 .about-section-content {
   margin: 30px;
 }
+/*Contact Page*/
+.contact-me .content {
+  padding: 140px 20px;
+  margin-left: 55px;
+}
+
+#contact-me-heading {
+  font-size: 45px;
+}
