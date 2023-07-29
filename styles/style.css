@@ -80,7 +80,9 @@ h6 {
   font-weight: bold;
   text-align: center;
 }
-
+h4 {
+  font-size: 40px;
+}
 .btn-branding,
 .btn-readMore {
   background: var(--branding-color);
@@ -98,7 +100,40 @@ h6 {
   line-height: 27px;
   padding: 15px 30px;
 }
+footer .email-link {
+  text-decoration: none;
+  font-size: 24px;
+  text-align: center;
+  color: black;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer {
+  margin: 60px;
+}
+footer p {
+  margin: 0;
+}
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 100px;
+  border-radius: 10px;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: #272142;
+  border-radius: 50%;
 
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+}
+footer .social-links a:hover {
+  color: #6c63ff;
+  transition: all 100ms;
+  background: #707070;
+}
 /*About Page*/
 
 #heading {
