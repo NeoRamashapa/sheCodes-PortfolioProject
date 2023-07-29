@@ -5,14 +5,43 @@
   --default-font-family: "Poppins", sans-serif;
   --secondary-color: #f9f7fe;
 }
+.logo {
+  max-width: 50px;
+}
+nav {
+  padding: 20px 0;
+}
+nav li {
+  list-style: none;
+  display: inline;
+  line-height: 42px;
+  margin-left: 15px;
+  font-size: 13px;
+}
+nav li.active a,
+nav a:hover {
+  color: var(--branding-color);
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
 body {
   font-family: var(--default-font-family);
   background: var(--secondary-color);
+  margin: 20px;
 }
 .intro {
   background: var(--secondary-color);
   text-align: center;
   padding: 160px 20px;
+  margin: 25px;
 }
 .intro p {
   font-family: var(--heading-font-family);
